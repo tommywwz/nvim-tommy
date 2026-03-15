@@ -1,7 +1,6 @@
 vim.g.mapleader = " "
 local keymap = vim.keymap
-
-keymap.set("i", "jk", "<ESC>")
+keymap.set("i", "jj", "<ESC>")
 
 
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
